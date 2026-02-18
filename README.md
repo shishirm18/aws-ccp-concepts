@@ -18,3 +18,7 @@ Improves the read performance by caching the content at different Edge locations
 
 * SQS is the AWS Oldest offering (over 10 years old)
 * Its fully managed (~ serverless), use to decouple applications
+* Messages are deleted after they're read by consumers.
+* No limit to how many messages can be in the queue.
+* Low latency (<10ms)
+* Consumers share the work to read messages & scale horizontally
