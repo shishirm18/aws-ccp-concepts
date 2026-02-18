@@ -15,3 +15,6 @@ Improves the read performance by caching the content at different Edge locations
 #### Whats a Queue?
 * If we have a Queue, we have producers send messages into that queue. It could be multiple producers sending messages to the queue. Once they are stored, they can be read by Consumers (polling/requesting from the queue). It can be 1 or more consumers.
 * Once they are done processing the request, they will delete the message from the queue.
+
+* SQS is the AWS Oldest offering (over 10 years old)
+* Its fully managed (~ serverless), use to decouple applications
